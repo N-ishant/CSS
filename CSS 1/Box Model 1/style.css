@@ -1,0 +1,29 @@
+.box{
+    height: 100px;
+    width: 200px;
+    border: 5px solid black;
+}
+#org{
+    background-color: orange;
+    padding-left: 25px;
+    box-sizing: border-box; 
+    margin-bottom: 10px;
+    /* (.) The CSS box-sizing property allows us to include the padding and border in an element's total 
+           width and height.
+       (.) Without box-sizing : border-box => Size of content and padding remains same.In other words
+           the size of content remanis same and in addition to it padding also gets added due to which
+           actual size of box becomes large after padding. 
+       (.) With box-sizing : border-box => Size of content gets smaller but padding remains same.In other
+           words size of content gets smaller but the size of box remains same before padding and after 
+           padding.
+    */
+}
+#wht{
+    background-color: white;
+    padding-right: 5cm;
+}
+#grn{
+    background-color: green;
+    padding-top: 25px;
+    margin-left: 10px;
+}

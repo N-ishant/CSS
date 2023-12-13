@@ -1,0 +1,19 @@
+.box{
+    height: 100px;
+    width: 200px;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 25px;
+}
+#org{
+    /* Hexadecimal Colors : #RRGGBB : All values must be between 00 to FF */
+    background-color: #2578f0;
+}
+#wht{
+    /* RGB Colors : Each value (red, green and blue) defines the intensity of the color and can be an
+       integer between 0 and 255 or a percentage value (from 0 % to 100 %). */
+    background-color: rgb(212,255,0);
+}    
+#grn{
+    background-color: green;
+}

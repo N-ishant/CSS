@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+
+    <style>
+        div{
+            background-color: blueviolet;
+        }
+        .divc{
+            background-color: aqua;
+            color: green;
+        }
+        #divi{
+            background-color:bisque;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <div class="divc" id="divi">Hello World!!</div>
+
+    <!-- Specificity : (Inline-CSS) >>>> (ID) >>> (Class) >> (Tag) -->
+</body>
+</html>

@@ -1,0 +1,18 @@
+.box1{
+    background-color: aqua;
+    transform: translate(20px,40px);
+    /* transform: translateX(20px); */
+    /* transform: translateY(40px); */
+}
+.box2{
+    margin: 20px;
+    background-color: yellow;
+    transform: rotate(45deg);
+    /* Clockwise */
+}
+.box3{
+    margin: 20px;
+    background-color: pink;
+    transform: rotate(-45deg);
+    /* Anti-Clockwise */
+}

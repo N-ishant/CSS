@@ -1,0 +1,14 @@
+.box1{
+    min-height: 10px;
+    border: 1px solid black;
+}
+.box2{
+    margin: 10px;
+    min-height: 10px;
+    border: 1px solid black;
+}
+.box3{
+    margin: 10px;
+    min-height: 10px;
+    border: 1px solid black;
+}

@@ -1,0 +1,18 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+.translated{
+    transform: perspective(15px) translateZ(-20px);
+}
+.scaled{
+    margin-left: 200px;
+    transform: perspective(300px) scaleZ(6) rotateX(45deg) rotateY(30deg);
+}
+.box{
+    margin: 200px;
+    transform: rotateZ(30deg);
+    /* to rotate in z-axis we do not need "perspective" */
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute Position</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 
+        (1) An element with position: absolute; is positioned relative to the "nearest positioned ancestor".
+        (2) Nearest Positioned Ancestor : When referring to nearest positioned ancestor we mean the 
+            closest ancestor to the element with a set position value, "other that static(which is default)".
+        (3) However, if an absolute positioned element has no positioned ancestors, it uses the document
+            body, and moves along with page scrolling.
+        (4) Note : Absolute positioned elements are removed from the normal flow, and can overlap elemnets.        
+    -->
+    <div class="box1">A</div>
+    <div class="box2">B</div>
+    <div class="box3">C</div>
+    <div class="box4">D</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Position</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 
+        (1) An element with position: sticky; is positioned based on the user's scroll position.
+        (2) A sticky element toggles between relative and fixed, dependinng on the scroll position.
+            It is positioned relative until a given offset position is met in the viewport - then it
+            "sticks" in place (like position:fixed).
+    -->
+    <div class="wrapper">
+        <div class="box" id="box1">A</div>
+        <div class="box" id="box2">B</div>
+        <div class="box" id="box3">C</div>
+        <div class="box" id="box4">D</div>
+    </div>
+</body>
+</html>

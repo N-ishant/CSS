@@ -1,0 +1,8 @@
+h1{
+    text-shadow: 3px 3px 3px red;
+    /* text-shadow: horizontal length vertical length blurr effect */
+    /* blurr effect is optional while starting two parameters are mandatory */
+}
+#tag{
+    text-shadow: 3px 3px 3px blue,6px 6px 6px green;
+}

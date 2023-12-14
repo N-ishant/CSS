@@ -1,0 +1,37 @@
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(red,blue);
+    /* default direction is "TOP to BOTTOM" */
+}
+.box1{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(to right,green,yellow);
+}
+.box2{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+    background-image: linear-gradient(to bottom left,violet,black,red);
+}
+.box3{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+    background-image: linear-gradient(210deg,orange,purple);
+}
+.box4{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+    background-image: linear-gradient(to top right,rgba(156,0,0,0.6),rgba(0,0,76,1));
+}
+/* RGBA Color(Red, Green, Blue, Alpha) values are an extension of RGB color values with an alpha channel 
+   - which specifies the opacity for a color. The Alpha parameter is a number between 0.0(fully transparent)
+   and 1.0(fully opaque). */

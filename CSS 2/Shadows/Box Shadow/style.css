@@ -1,0 +1,36 @@
+.box1{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px;
+}
+.box2{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px;
+    color: blueviolet;
+}
+.box3{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 15px green;
+    color: blueviolet;
+}
+.box4{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 15px green,18px 18px 15px brown;
+    color: blueviolet;
+}
+.box5{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: -10px -10px 15px green,15px 15px 15px brown;
+    color: blueviolet;
+    /* By using negative values we can change the direction */
+    /* Note : Blurr effect's value cannot be negative */
+}

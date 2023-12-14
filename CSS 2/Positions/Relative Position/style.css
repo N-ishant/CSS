@@ -1,0 +1,19 @@
+div{
+    display: inline-block;   /* All "div elements" will get arranged in a single horizontal line */
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+.box3{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+/* 
+(1) Compared to "display: inline", the major difference is that "display: inline-block" allows to set a 
+    width and height on the element.
+(2) Also, with "display: inline-block", the top and bottom margins/paddings are respected, but with 
+    "display: inline" they are not.    
+*/
